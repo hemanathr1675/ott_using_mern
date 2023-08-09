@@ -33,10 +33,10 @@ body {
  }
 
  .movies-list {
-    width: 100%;
+    width: 85vw;
     height: 220px;
     position: relative;
-    margin: 10px 0 20px;
+    margin: 10px 0 10px  ;
  }
 
  .card-container {
@@ -164,17 +164,6 @@ body {
     background: linear-gradient(to left, #0c111b 0%, #0c111b00);
  }
 
- .pre-btn img,
- .nxt-btn img {
-    width: 15px;
-    height: 20px;
-    opacity: 0;
- }
- 
- .pre-btn:hover img,
- .nxt-btn:hover img {
-    opacity: 1;
- }
 
  .video-card-container {
     position: relative;
@@ -312,4 +301,3 @@ div.copyright a{
     text-decoration: none;
     color: blueviolet;
 }
-
