@@ -279,3 +279,35 @@ body {
     display: block;
 }
 
+.footer
+{
+    
+    width: 80%;
+    min-height: 350px;
+    background-color: #0F1014;
+    margin-left: 9%;
+}
+.footer-style
+{
+    
+    color: aliceblue;
+    padding: 20px 10% 0px 10%;
+    
+}
+div.footer-style a{
+    text-decoration: none;
+    color: blueviolet;
+}
+div.footer-style svg,a{
+    
+    color: mintcream;
+}
+.copyright
+{
+    color: white;
+    margin: 50px 0px 20px 100px;
+}
+div.copyright a{
+    text-decoration: none;
+    color: blueviolet;
+}
