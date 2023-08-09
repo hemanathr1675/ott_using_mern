@@ -117,8 +117,8 @@ body {
     border: none;
     font-weight: 500;
     text-align: right;
-    color: rgba(255, 255, 255, 0.5);
-    margin: 5px 0;
+    color: white;
+    margin: 5px 0  ;
     cursor: pointer;
     padding: 10px 5px;
     border-radius: 5px;
@@ -139,6 +139,7 @@ body {
  .watchlist-btn:hover {
     color: #fff;
     background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 5px;
  }
 
  .pre-btn,
@@ -278,5 +279,37 @@ body {
 
 .sidebar:hover .links li a {
     display: block;
+}
+
+.footer
+{
+    
+    width: 100%;
+    min-height: 350px;
+    background-color: #0F1014;
+}
+.footer-style
+{
+    
+    color: aliceblue;
+    padding: 20px 10% 0px 10%;
+    
+}
+div.footer-style a{
+    text-decoration: none;
+    color: blueviolet;
+}
+div.footer-style svg,a{
+    
+    color: mintcream;
+}
+.copyright
+{
+    color: white;
+    margin: 50px 0px 20px 100px;
+}
+div.copyright a{
+    text-decoration: none;
+    color: blueviolet;
 }
 
